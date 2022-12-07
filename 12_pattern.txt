@@ -1,0 +1,15 @@
+a = 6
+for i in range(a):
+        m = 65
+        for j in range(i):
+                print(chr(m),end=' ')
+                m += 1
+        print() 
+
+OUTPUT
+
+A 
+A B
+A B C
+A B C D
+A B C D E

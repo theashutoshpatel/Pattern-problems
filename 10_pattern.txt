@@ -1,0 +1,28 @@
+a=8
+m=0
+for i in range(a):
+        if(i< a/2):
+                for j in range(i):
+                        print("* ",end="")
+                print()
+        else: 
+                
+                for k in range(i-m):
+                        print("* ",end="")
+                print()
+                m+=2
+
+OUTPUT
+
+* 
+* *
+* * *
+* * * *
+* * *
+* *
+*
+
+note-
+	In if loop a value is half and else value is half.
+so one it start 0 and end 4
+and other is start with 0 and end with 7...
